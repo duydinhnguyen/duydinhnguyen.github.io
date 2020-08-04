@@ -8,10 +8,10 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="1.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="1.js"></script>
@@ -31,10 +31,10 @@
 					<a class="nav-link" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Kinh nghiệm</a>
+					<a class="nav-link kn" href="#" >Kinh nghiệm</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Sản phẩm</a>
+					<a class="nav-link sp" href="#">Sản phẩm</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Thông tin liên hệ</a>
@@ -57,37 +57,50 @@
 	<div class="tt">
 		<img src="images/duy.jpg" alt="" class="duy">
 		<h2>Nguyễn Đình Duy</h2>
-		<p>“Toàn diện, sáng tạo, phụng sự”</p>
+		<p>Tìm kiếm cho bản thân một môi trường năng động, trẻ trung, sáng tạo. Luôn nỗ lực, học hỏi và phát triển bản thân không ngừng.</p>
+	</div>
+	<div class="xuong">
+
 	</div>
 </div>
 </div>
 <!--End Khối thứ 1 dưới menu-->
 
-<div class="edu">
+<!--Khối học tập và kinh nghiệm-->
+<div class="edu" id="khoiedu">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 tieudeto">
-               <h1 class="text-center">Kinh nghiệm & Quá trình học tập</h1>
+			<div class="col-sm-12 tieudeto mt-4">
+               <h1 class="text-center kinhnghiem">Kinh nghiệm & Quá trình học tập</h1>
 			</div>
-			<div class="col-sm-4 cot1_3">
-				  <h2 class="tieudecap2 text-sm-right text-xs-center">Quá trình <span class="chudam">học tập</span></h2>
+			<div class="col-sm-4 cot1_3 hoctap">
+				<p class="tieudecap2 text-sm-right text-xs-center">Quá trình<span class="chudam" style="font-weight: 700;"> học tập</span></p>
 				  <div class="khoittnho text-sm-right text-xs-center">
-					  <h3  class="tieudecap3">Trường đại học Công Nghệ Thông tin - ĐHQG HCM</h3>
+					  <p  class="tieudecap3" style="color:#e9585f;font-weight:650;">Trường đại học Công Nghệ Thông tin - ĐHQG HCM</p>
 					  <span class="motaqt">Chuyên ngành: Truyền thông & Mạng máy tính</span>
-					   <p>08/2017 - hiện nay: Đang học tập tại trường đại học Công nghệ thông tin</p>
+					   <p class="content">08/2017 - hiện nay: Đang học tập tại trường đại học Công Nghệ Thông Tin</p>
 				  </div>
 			</div>
-			<div class="col-sm-4 col2_3">
+			<div class="col-sm-4 col2_3 logo_people">
                   <img src="images/people.png" alt="" class="logopeople">
 			</div>
-			<div class="col-sm-4 cot1_3">
-				<h2 class="tieudecap2 text-sm-left  text-xs-center">Quá trình <span class="chudam">làm việc</span></h2>
+			<div class="col-sm-4 cot1_3 lamviec">
+				<p class="tieudecap2 text-sm-left text-xs-center">Quá trình<span class="chudam" style="font-weight:700;"> làm việc</span></p>
 				<div class="khoittnho text-sm-left text-xs-center">
-					<h3  class="tieudecap3">Đồ án môn học: Lập trình ứng dụng mạng</h3>
+					<p  class="tieudecap3" style="color:#e9585f;font-weight:650;">Đồ án môn học: Lập trình ứng dụng mạng</p>
 					<span class="motaqt">03/2020 - 07/2020: Trang web bán hàng điện thoại di động</span>
+				    <p  class="content">Sử dụng các công nghệ HTML5 & CSS3, Boostrap4, Jquery, Javascript cho Front-End. Sử dụng Nodejs, ExpressJS, MongoDB cho Back-End.</p>
 				</div>
 		  </div>
 		</div>
+</div>
+<!--End Khối học tập và kinh nghiệm-->
+
+<div class="" id="khoisp">
+	<div class="container">
+		<div class="row">
+		    
+		  </div>
 	</div>
 </div>
 </body>
