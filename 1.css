@@ -110,6 +110,10 @@ li.nav-item{
     .xuong{
         display: none;
     }
+    .tt p{
+        width:53%;
+        
+    }
    
    
 }
