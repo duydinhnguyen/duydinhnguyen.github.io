@@ -34,7 +34,7 @@ li.nav-item{
     width: 40px;
     height: 77px;
     border: 1px solid white;
-    position: absolute;
+    position:absolute;
     left: 50%;
     border-radius:30px;
     bottom: 2%;
@@ -75,7 +75,10 @@ li.nav-item{
         display: inline !important;
         text-align: center;
     }
-   
+    .xuong{
+        display: none;
+    }
+    
 }
 @media (max-width:575px){
     .logomenu{
@@ -104,6 +107,10 @@ li.nav-item{
         display: inline-block !important;
         text-align: center;
     }
+    .xuong{
+        display: none;
+    }
+   
    
 }
 @media (max-width:991px){
