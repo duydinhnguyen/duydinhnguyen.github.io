@@ -42,8 +42,9 @@ li.nav-item{
     margin-left: -20px;
     cursor: pointer;
     transition: 0.4s;
-    
+   
 }
+
 .xuong:hover{
     bottom: 4%;
 }
@@ -56,9 +57,44 @@ li.nav-item{
     bottom: 67%;
     background-color: white;
     margin-left: -2px;
-
+}
+.navbar{
+    width: 100%;
+}
+.khoitt1{
+    height:700px;
+    width: 100%;
+    background-color:#e9585f;
+    position: relative;
+}
+/* ---------------------------------*/
+@media (max-width:1199px){
+    .xuong{
+       margin-top:500px;
+    }
+    a.nav-link{
+        line-height:10px;
+        font-size: 16px;
+    }
+}
+@media (max-width:991px){
+    a.nav-link{
+        line-height:15px;
+        font-size: 16px;
+    }
+    .tt{
+        padding-top: 500px;
+    }
+    .khoitt1{
+        padding-top: 200px;
+        height:900px; ;
+    }
 }
 @media (max-width:767px){
+    .khoitt1{
+         padding-top: 100px;
+        height:700px; ;
+    }
     a.navbar-brand{
       display:inline-block !important;
       text-align: center;
@@ -79,7 +115,6 @@ li.nav-item{
     .xuong{
         display: none;
     }
-    
 }
 @media (max-width:575px){
     .logomenu{
@@ -112,26 +147,29 @@ li.nav-item{
         display: none;
     }
     .tt p{
-        width:53%;
-        
+        width:53%; 
     }
-   
-   
+    .khoitt1{
+       padding-top:160px;
+       height:700px; ;
+    }
 }
-@media (max-width:991px){
-    a.nav-link{
-        line-height:23px;
-        font-size: 16px;
-    }
-   
+@media (max-width:355px){
+    .khoitt1{
+        padding-top:180px;
+        height:700px; ;
+     }
+     .nameAuthor{
+         font-size:20px !important;
+     }
+     .tt p{
+        font-size:15px !important;
+     }
 }
 
-.khoitt1{
-    height: 100%;
-    width: 100%;
-    background-color:#e9585f;
-    position: relative;
-}
+/* ---------------------------------*/
+
+
 .khoitt1:before{
     content:"";
     position: absolute;
@@ -338,7 +376,7 @@ li.nav-item{
     .khoivuong {
             width:150px !important;
             height: 100px  !important;
-            top:33% !important;
+            top:25% !important;
             left:6% !important;
         }
  
