@@ -28,7 +28,7 @@
         return false;
     })
 
-
+     
     /* xử lý sự kiện cho skill bar */
     $(window).on ('load', function (){ // makes sure the whole site is loaded
 
@@ -49,9 +49,12 @@
               });
           });
       });
-
-
   });  //End On Load Function
   /*End xử lý sự kiện cho skill bar */
+
+  $(window).scroll(function(){
+      
+  })
+
 })  
  

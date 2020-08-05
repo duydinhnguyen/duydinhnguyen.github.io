@@ -67,6 +67,9 @@ li.nav-item{
     background-color:#e9585f;
     position: relative;
 }
+.navbar-nav>li>a:hover{
+ color:#e9585f !important;
+}
 /* ---------------------------------*/
 @media (max-width:1199px){
     .xuong{
