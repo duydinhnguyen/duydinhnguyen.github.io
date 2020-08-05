@@ -10,12 +10,19 @@
 	<link rel="stylesheet" href="1.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
 	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="1.js"></script>
+	 <!-- Skill COunt -->
+	 <script src="plugins/counto/apear.js"></script>
+	 <script src="plugins/counto/counTo.js"></script>
+
+	 
+	 
 	
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174478028-1"></script>
@@ -33,25 +40,25 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=3507330269376028&autoLogAppEvents=1" nonce="ZMZhQdrO"></script>
 
 <div class="menutop">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fix-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
 		<div class="container">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo DuyDinh" class="logomenu"></a>
 		<div class=" navbar-collapse" id="">
 			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
+					<a class="nav-link gt" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link kn" href="#" >Kinh nghiệm</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link sp" href="#">Sản phẩm</a>
+					<a class="nav-link sp" href="#">Kỹ năng</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Thông tin liên hệ</a>
+					<a class="nav-link contact" href="#">Thông tin liên hệ</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link cm" href="#">Bình luận</a>
+					<a class="nav-link cm" href="#">Phản hồi</a>
 				</li>
 				
 			</ul>
@@ -63,7 +70,7 @@
 
 
 <!--Khối thứ 1 dưới menu-->
-<div class="khoitt1">
+<div class="khoitt1 mt-5" id="khoigt">
 <div class="container text-xs-center">
 	<div class="tt">
 		<img src="images/duy.jpg" alt="" class="duy">
@@ -81,7 +88,7 @@
 <div class="edu" id="khoiedu">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 tieudeto mt-4 mb-3">
+			<div class="col-sm-12 tieudeto mt-4 mb-2">
                <h1 class="text-center kinhnghiem">Kinh nghiệm & Quá trình học tập</h1>
 			</div>
 			<div class="col-sm-4 cot1_3 hoctap">
@@ -107,13 +114,100 @@
 </div>
 <!--End Khối học tập và kinh nghiệm-->
 
-<div class="" id="khoisp">
+<!--Khối kỹ năng-->
+<div class="mt-5" id="khoisp">
 	<div class="container">
+		<h1 class="text-center skills">Kỹ năng</h1>
+		<!--thanh % kỹ năng-->
 		<div class="row">
-		    
-		  </div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">Html5/Css3 </h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="65">
+							<span class="percent-text"><span class="count">65</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">Boostrap4</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="60">
+							<span class="percent-text"><span class="count">60</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">Javascript</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="50">
+							<span class="percent-text"><span class="count">50</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class="mb-4 text-right"><h4 class="font-weight-normal">Jquery</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="40">
+							<span class="percent-text"><span class="count">40</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class=" mb-4 text-right"><h4 class="font-weight-normal">NodeJs/ExpressJS/MongoDB </h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="60">
+							<span class="percent-text"><span class="count">60</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="skill-bar mb-4 mb-lg-0">
+					<div class=" mb-4 text-right"><h4 class="font-weight-normal">Github</h4></div>
+					<div class="progress">
+						<div class="progress-bar" data-percent="70">
+							<span class="percent-text"><span class="count">70</span>%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end % thanh kỹ năng-->
 	</div>
 </div>
+<!--End Khối kỹ năng-->
+
+
+<!--Khối thông tin liên hệ-->
+<div class="thongtinlienhe mt-5" id="lienhe">
+	<div class="container">
+		<h1 class="text-center info_contact">Thông tin liên hệ</h1>
+		<div class="containerInfo mt-3">
+			<div class="detail_info">
+				<div class="emailANDphone">
+					<p style="color: #e9585f; font-weight: 700;">Email: <span style="color:#00000087;font-weight:500;">duy19982@gmail.com</span></p>
+					<p  style="color: #e9585f; font-weight: 700;">Phone: <span style="color:#00000087;font-weight:500;">0986622074</span></p>
+				</div>
+			</div>
+			<div class="khoivuong">
+
+			</div>
+		</div>
+		
+	</div>
+</div>
+<!--EndKhối thông tin liên hệ-->
+
 
 <!--Khối comment-->
 <div class="khoicomment mt-5 "id="phanhoi">
@@ -133,5 +227,6 @@
 		</div>
 	</div>
 </div>
+<!--End Khối comment-->
 </body>
 </html>
